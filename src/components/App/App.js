@@ -20,7 +20,7 @@ class App extends Component {
     isLoading: false,
     error: null,
     searchQuery: "",
-    page: 1,
+    page: 0,
     isShowModal: false,
     modalImageURL: '',
   };
@@ -60,7 +60,7 @@ class App extends Component {
   handleSearchFormSubmit = query => {
     this.setState ({
       searchQuery: query,
-      page: 0,
+      page: 1,
       gallery: [],
     });
   };
