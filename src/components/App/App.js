@@ -10,11 +10,7 @@ import style from './App.module.css';
 
 
 class App extends Component {
-  // static defaultProps = {
-  //   page: 0,
-  //   isLoading: false,
-  //   isShowModal: false,
-  // };
+
   state = {
     gallery: [],
     isLoading: false,
@@ -99,10 +95,6 @@ class App extends Component {
       </>
     ) 
   }
-
 }
-
-
-
 
 export default App;

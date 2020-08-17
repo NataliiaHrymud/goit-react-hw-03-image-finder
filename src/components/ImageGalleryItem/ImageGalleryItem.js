@@ -2,7 +2,6 @@ import React from 'react';
 import style from './iImageGalleryItem.module.css';
 import PropTypes from 'prop-types';
 
-
 const ImageGalleryItem = ({img, id, show}) => {
     return (
         <div>

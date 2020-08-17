@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_Url = "https://pixabay.com/api/"
+const API_Url = "https://pixabay.com/api/";
 const API_KEY = "16179097-8566271ab112e51de35a43208";
 const perPage = 12;
 

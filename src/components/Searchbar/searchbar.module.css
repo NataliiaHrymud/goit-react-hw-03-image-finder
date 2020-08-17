@@ -1,5 +1,6 @@
 /*  Стили компонента Searchbar */
- .Searchbar {
+
+.Searchbar {
     top: 0;
     left: 0;
     position: sticky;
@@ -19,8 +20,7 @@
   }
 
   /* * Стили компонента SearchForm */
-  
-  .SearchForm {
+    .SearchForm {
     display: flex;
     align-items: center;
     width: auto;
